@@ -1,0 +1,243 @@
+:root {
+    --primary-color: #f60f20;
+    --secondary-color: #1b206e;
+    --color-code-02:rgb(27, 32, 110);
+    --color-code-01:rgb(15, 12, 55);
+    --color-code-03:rgb(35, 116, 133);
+  }
+/*basic styles*/
+body{
+    margin: 0% 0%;
+}
+
+/*hedaer background img*/
+.header_bacground{
+    background:url(/assets/IMGS/Untitled-1.jpg);
+    max-width: 1920px;
+    max-height: 1080px;
+    width: 100%;
+    height: 1070px;
+    margin: 0% 0%;
+    padding: 0% 0%;
+    background-repeat: no-repeat;
+    z-index: 1;
+   
+}
+/* header section*/
+.header_continer{
+    margin: 0% 0%;
+    padding: 0% 0%;
+    position: fixed;
+    top:0;
+    width: 100%;
+ 
+ 
+}
+
+
+/*navigation bar*/
+.navigation_bar{
+    padding: 2% 5% 0% 5%;
+    display: flex;
+    z-index: 3;
+    position: relative;
+    top: 0;
+}
+/*H1 log*/
+.h1-logo{
+    padding: 0% 0%;
+    
+    
+} 
+.h1-logo img{
+    max-height: 40px;
+    
+} 
+/*search bar*/
+.search_bar{
+    position: relative;
+    vertical-align: middle;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 30px;
+    padding: 2px 2px;
+    margin: 0% 0% 0% 20%;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    box-shadow: 20px 20px 20px #00000025,   0 0 15px ;
+} 
+.search_bar form{
+    display: flex;
+   
+    
+}
+.input_tag{
+    width: 100%;
+    
+}
+.search_input_felid{
+    width: 100%;
+    height: 30px;
+    font-size: 1rem;
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 1;
+    border-style: none;
+    align-self: center;
+    border-radius: 5px;
+    background-color: var(--color-code-01);
+    
+}
+.search_input_felid:hover{
+    
+    border-style: none;
+    
+}
+.btn{
+    color: #fff;
+    font-family: Nunito;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    background-color:transparent;
+    
+}
+.icofont-search{
+    color: #fff;
+    font-size: 1rem;
+    background-color: transparent;
+    cursor: pointer;
+}
+/*profile icon signup and sign in*/
+.signin_signup_profile{
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    top: 30px;
+    left: 0;
+    right: 0;
+    width: 10%;
+    height: 30px;
+    padding: 2px 0px;
+    margin: 0% 0% 0% 20%;
+   
+}
+.prifile_a{
+    
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    vertical-align: middle;
+    align-self:center;
+    margin: 0% 0% 0% 10%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: var(--color-code-02);
+    box-shadow: 0.1px 0.1px 5px #000000;
+    scale: 90%;
+    
+}
+.prifile_a:hover{
+    scale: 85%;
+}
+.login_a{
+    position: relative;
+    color: white;
+    font-size: 1.2rem;
+    vertical-align: middle;
+    align-self:center;
+    margin: 0% 0% 0% 0%;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color: var(--color-code-02);
+    box-shadow: 0.1px 0.1px 5px #000000;
+    scale: 90%;
+}
+.login_a:hover{
+    scale: 85%;
+}
+/*menu item*/
+
+.menu_item{
+    margin: 4% 0%;
+    position: relative;
+    
+}
+.menu_01{
+    width: 100%;
+    height: 170px;
+    color: white;
+    background-image: url(/assets//IMGS/Asset\ 6.png);
+    background-repeat: no-repeat;
+    scale: 80%;
+}
+.menu_02{
+    width: 100%;
+    height: 170px;
+    color: white;
+    background-image: url(/assets//IMGS/Asset\ 6\ -\ Copy.png);
+    background-repeat: no-repeat;
+    scale: 80%;
+}
+.menu_01 a h1{
+    padding: 40px 20px;
+    align-self: center;
+}
+
+/*media qurey*/ 
+@media (max-width:650px){
+    
+    .h1-logo{
+        scale: 70%;
+    }
+    .search_input_felid{
+        scale: 85%;
+        padding: 10px 9px;
+        margin: 0px 0px;
+        width: 110%;
+    }
+    .btn{
+        scale: 70%;
+    }
+    .login_a{
+        scale: 70%;
+        
+    }
+    .prifile_a{
+        scale: 70%;
+        margin: 0% 0% 0% 0%;
+    }
+    .search_bar{
+     
+    height: 30px;
+    padding: 1px 1px;
+    margin: 0% 0% 0% 2%;
+    
+    }
+    .btn{
+        
+        width: 35px;
+        height: 30px;
+        border-radius: 5px;
+        
+        
+    }
+    .signin_signup_profile{
+        
+        top: 30px;
+        left: 0;
+        right: 0;
+        width: 8%;
+        height: 30px;
+        padding: 2px 0px;
+        margin: 0% 0% 0% 2%;
+       
+    }
+    
+}
+
