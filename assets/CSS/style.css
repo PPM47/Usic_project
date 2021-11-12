@@ -16,7 +16,7 @@ h1{
 
 /*hedaer background img*/
 .header_bacground{
-    background:url(/assets/IMGS/Untitled-1.jpg);
+    background:url(assets/IMGS/Untitled-1.jpg);
     max-width: 1920px;
     max-height: 1080px;
     width: 100%;
@@ -183,7 +183,7 @@ h1{
     width: 100%;
     height: 100%;
     color: white;
-    background-image: url(/assets//IMGS/Asset\ 4.svg);
+    background-image: url(assets//IMGS/Asset\ 4.svg);
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ h1{
     width: 100%;
     height: 100%;
     color: white;
-    background-image: url(/assets//IMGS/Asset\ 3.svg);
+    background-image: url(assets//IMGS/Asset\ 3.svg);
     background-size: 100px;
     background-position: center;
     background-repeat: no-repeat;
