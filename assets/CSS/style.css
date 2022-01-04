@@ -8,307 +8,123 @@
 /*basic styles*/
 body{
     margin: 0% 0%;
-    font-family: Nunito;
 }
-h1{
-    font-family: Nunito;
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*hedaer background img*/
-.header_bacground{
-    background:url(../IMGS/Untitled-1.jpg);
+/* background img*/
+.background_img{
+    background:url(/assets/IMGS/Untitled-1.jpg);
+    background-position: center;
     max-width: 1920px;
-    max-height: 1080px;
-    width: 100%;
-    height: 1070px;
+    height: 900px;
     margin: 0% 0%;
-    padding: 0% 0%;
+    padding: 1px;
     background-repeat: no-repeat;
-    z-index: 1;
    
 }
-/* header section*/
-.header_continer{
-    margin: 0% 0%;
-    padding: 0% 0%;
-    position: fixed;
-    top:0;
+/*page margin*/
+.continer{
+    width: 80vw;
+    margin: 0 auto;
+}
+/*page margin*/
+.sec_01{
+
+}
+/*display flex */
+.row{
+    display: flex;
+    
+}
+/*log div */
+.log_continer{
+    
+}
+.log_continer img{
+   max-width: 6rem;
+}
+
+
+/*log -in & profile BTN*/
+.nodec{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    
+}
+.btn1{
+    background-color: var(--color-code-02);
+    padding: 0.7em;
+    border-radius: 11px;
+    margin: 0 0.5em;
+    height: 100%;
+    
+}
+.sec_01{
+    border: none;
+   justify-content: space-evenly;
+    max-height: 40vh;
+    margin-top: 30px;
+}
+
+.search_form_contiiner{
+    background-color: var(--color-code-02);
+    border-radius: 10px;
     width: 100%;
- 
- 
-}
-
-
-/*navigation bar*/
-.navigation_bar{
-    padding: 2% 5% 0% 5%;
-    display: flex;
-    z-index: 3;
-    position: relative;
-    top: 0;
-}
-/*H1 log*/
-.h1-logo{
-    padding: 0% 0%;
-    
-    
-} 
-.h1-logo img{
-    max-height: 40px;
-    
-} 
-/*search bar*/
-.search_bar{
-    position: relative;
-    vertical-align: middle;
-    top: 30px;
-    left: 0;
-    right: 0;
-    width: 50%;
-    height: 30px;
-    padding: 2px 2px;
-    margin: 0% 0% 0% 20%;
-    background-color: var(--secondary-color);
-    border-radius: 5px;
-    box-shadow: 20px 20px 20px #00000025,   0 0 15px ;
-} 
-.search_bar form{
-    display: flex;
-   
+    max-width: 49rem;
+    height: 100%;
+    max-height: 3rem;
+    padding: 0;
+    margin: 0 1rem;  
     
 }
+/* input feild */
 .input_tag{
+    margin: auto auto;
     width: 100%;
-    
+
 }
 .search_input_felid{
     width: 100%;
-    height: 30px;
-    font-size: 1rem;
-    color: #fff;
-    padding: 10px 10px;
-    line-height: 1;
-    border-style: none;
-    align-self: center;
-    border-radius: 5px;
+    max-width: 46rem;
     background-color: var(--color-code-01);
-    
+    color: #fff;
+    border-radius: 9px;
+    padding-left: 1rem;
+    line-height: 2rem;
+    border:var(--color-code-02) solid;  
+    font-size: 0.8rem; 
 }
-.search_input_felid:hover{
-    
-    border-style: none;
-    
-}
+/* search btn */
 .btn{
-    color: #fff;
-    font-family: Nunito;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    width: 50px;
-    height: 30px;
-    border-radius: 5px;
+    border: none;
     background-color:transparent;
-    
-}
-.icofont-search{
-    color: #fff;
+    color: #fff; 
+    width: 100%;
+    max-width: 3rem;
     font-size: 1rem;
-    background-color: transparent;
     cursor: pointer;
-}
-/*profile icon signup and sign in*/
-.signin_signup_profile{
-    position: relative;
-    vertical-align: middle;
-    display: flex;
-    top: 30px;
-    left: 0;
-    right: 0;
-    width: 10%;
-    height: 30px;
-    padding: 2px 0px;
-    margin: 0% 0% 0% 20%;
    
 }
-.prifile_a{
-    
-    color: white;
-    font-size: 1.2rem;
-    position: relative;
-    vertical-align: middle;
-    align-self:center;
-    margin: 0% 0% 0% 10%;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background-color: var(--color-code-02);
-    box-shadow: 0.1px 0.1px 5px #000000;
-    scale: 90%;
-    
-}
-.prifile_a:hover{
-    scale: 85%;
-}
-.login_a{
-    position: relative;
-    color: white;
-    font-size: 1.2rem;
-    vertical-align: middle;
-    align-self:center;
-    margin: 0% 0% 0% 0%;
-    padding: 10px 10px;
-    border-radius: 10px;
-    background-color: var(--color-code-02);
-    box-shadow: 0.1px 0.1px 5px #000000;
-    scale: 90%;
-}
-.login_a:hover{
-    scale: 85%;
-}
-/*menu item*/
-
-.menu_item{
-    padding: 0% 0% 0% 0%;
-    margin: 10% 0% 0% 0%;
-    display: list-item;
-    position: absolute;
-    top: 0;
-    
-}
-.menu_item::marker{
-    
-    color: transparent;
-}
-.menu_01{
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-image: url(../IMGS/Asset\ 2.svg);
-    background-size: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-shadow: 0.1px 0.1px 5px #000000;
-    cursor: pointer;
-    
-
-    
-}
-.menu_02{
-    width: 100%;
-    height: 100%;
-    color: white;
-    background-image: url(../IMGS/Asset\ 1.svg);
-    background-size: 100px;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-shadow: 0.1px 0.1px 5px #000000;
-    cursor: pointer;
-}
-.menu_item div a h1{
-    
-    padding: 40px 20px;
-    font-size: 1.2rem;
-    vertical-align: middle;
-    color: white;
-    font-weight: 100;
-    
-    
-}
-.menu_02:hover{
-    scale: 90%;
-}
-.menu_01:hover{
-    scale: 90%;
+.con{
+    height: 50%;
+    display: flex;
 }
 
 
-/*media qurey*/ 
 @media (max-width:950px){
+    html{
+        font-size: 14px;
+    }
+}
+@media (max-width:500px){
+    html{
+        font-size: 12px;
+    }
+}
 
-    .search_bar{
-     
-        height: 30px;
-        padding: 1px 1px;
-        margin: 0% 0% 0% 10%;
-        
-        }
-        .btn{
-            
-            width: 35px;
-            height: 30px;
-            border-radius: 5px;
-            
-            
-        }
-        .signin_signup_profile{
-            
-            top: 30px;
-            left: 0;
-            right: 0;
-            width: 8%;
-            height: 30px;
-            padding: 2px 0px;
-            margin: 0% 0% 0% 9%;
-           
-        }
-}
-@media (max-width:650px){
-    
-    .h1-logo{
-        scale: 70%;
-    }
-    .search_input_felid{
-        scale: 85%;
-        padding: 10px 9px;
-        margin: 0px 0px;
-        width: 110%;
-    }
-    .btn{
-        scale: 70%;
-    }
-    .login_a{
-        scale: 70%;
-        
-    }
-    .prifile_a{
-        scale: 70%;
-        margin: 0% 0% 0% 0%;
-    }
-    .search_bar{
-     
-    height: 30px;
-    padding: 1px 1px;
-    margin: 0px 0px 0px 0px;
-    
-    }
-    .btn{
-        
-        width: 35px;
-        height: 30px;
-        border-radius: 5px;
-        
-        
-    }
-    .signin_signup_profile{
-        
-        top: 30px;
-        left: 0;
-        right: 0;
-        width: 8%;
-        height: 30px;
-        padding: 2px 0px;
-        margin: 0px 0px 0px 5px;
-       
-    }
-    /*meu tab*/
-    .menu_item{
-        
-        margin: 10% 0% 0% 0%;
-        scale: 80%;
-        
-    }
-    
-    
-}
 
 
