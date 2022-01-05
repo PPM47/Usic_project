@@ -16,7 +16,7 @@ html{
 
 /* background img*/
 .background_img{
-    background:url(/assets/IMGS/Untitled-1.jpg);
+    background:url(../assets/IMGS/Untitled-1.jpg);
     background-position: center;
     max-width: 1920px;
     height: 900px;
