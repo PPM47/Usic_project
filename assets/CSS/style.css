@@ -32,7 +32,7 @@ html{
 }
 /*page margin*/
 .sec_01{
-
+    position: fixed;
 }
 /*display flex */
 .row{
