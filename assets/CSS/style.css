@@ -16,7 +16,7 @@ html{
 
 /* background img*/
 .background_img{
-    background:url(assets/IMGS/Untitled-1.jpg);
+    background:url(/assets/IMGS/Untitled-1.jpg);
     background-position: center;
     max-width: 1920px;
     height: 900px;
@@ -29,10 +29,14 @@ html{
 .continer{
     width: 80vw;
     margin: 0 auto;
+
+    border: black solid;
 }
 /*page margin*/
-.sec_01{
-    position: fixed;
+.sec_00{
+    position: fixed; 
+    top: 0; 
+    width: 100%;
 }
 /*display flex */
 .row{
@@ -45,6 +49,7 @@ html{
 }
 .log_continer img{
    max-width: 7rem;
+   
 }
 
 
@@ -66,7 +71,7 @@ html{
 .sec_01{
     border: none;
    justify-content: space-evenly;
-    max-height: 40vh;
+   max-height: 40vh;
     margin-top: 30px;
 }
 
