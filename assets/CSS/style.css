@@ -120,11 +120,11 @@ html{
 }
 
 
-@media (max-width:950px){
+/*@media (max-width:950px){
     html{
         font-size: 14px;
     }
-}
+}*/
 @media (max-width:500px){
     html{
         font-size: 12px;
